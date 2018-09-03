@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'font-awesome/css/font-awesome.min.css'
 import './App.css'
 import React from 'react'
 
@@ -9,7 +11,8 @@ import Footer from '../components/template/Footer'
 export default props =>
     <div className="app">
         <Logo />
-        <Main />
         <Nav />
+        <Main icon="home" title="Inicio"
+            subtitle="Projeto de Crud de Usuários - React" />
         <Footer />
     </div>
